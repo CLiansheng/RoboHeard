@@ -1,0 +1,35 @@
+
+# 原始数据和标注
+data/
+
+# 预训练权重、训练检查点
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# 实验与评估输出
+results/
+runs/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 大型压缩文件
+*.zip
+*.tar
+*.zst
